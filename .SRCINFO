@@ -6,6 +6,7 @@ pkgbase = mingw-w64-opencascade
 	arch = any
 	license = custom
 	makedepends = mingw-w64-cmake
+	makedepends = mingw-w64-freetype2
 	depends = mingw-w64-tk
 	depends = mingw-w64-ffmpeg
 	depends = mingw-w64-freeimage
@@ -20,4 +21,3 @@ pkgbase = mingw-w64-opencascade
 	sha256sums = afb584aa453993ae8d9e2b983594558531ede735a5892754b812be30650c9fb5
 
 pkgname = mingw-w64-opencascade
-
