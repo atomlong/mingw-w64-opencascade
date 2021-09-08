@@ -8,7 +8,7 @@ url="https://www.opencascade.org"
 license=('custom')
 depends=('mingw-w64-tk' 'mingw-w64-ffmpeg' 'mingw-w64-freeimage' 'mingw-w64-onetbb' 'mingw-w64-rapidjson')
 #TODO: 'mingw-w64-vtk'
-makedepends=('mingw-w64-cmake')
+makedepends=('mingw-w64-cmake' 'mingw-w64-freetype2')
 options=('!buildflags' '!strip' 'staticlibs')
 source=("opencascade-${pkgver}.tgz::https://git.dev.opencascade.org/gitweb/?p=occt.git;a=snapshot;h=refs/tags/${_pkgver};sf=tgz"
         'fix-install-dir-references.patch')
